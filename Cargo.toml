@@ -1,0 +1,16 @@
+[package]
+
+name = "rust-example"
+version = "0.0.1"
+authors = ["Kenneth Nierenhausen <kennethnierenhausen@gmail.com>"]
+
+[[bin]]
+name = "rust_example"
+
+[dependencies.rust_tessel]
+git = "https://github.com/tessel/rust-tessel.git"
+#path = "../rust-tessel"
+
+[dependencies.rust_accel_mma84]
+git = "https://github.com/tessel/rust-accel-mma84.git"
+#path = "../rust-accel-mma84"
